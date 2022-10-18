@@ -63,7 +63,7 @@ export default defineUserConfig({
     process.env.DOCS_BUNDLER === "webpack" ? webpackBundler() : viteBundler(),
   // configure default theme
   theme: gungnirTheme({
-    repo: "DWSpace",
+    repo: "DWSpace/newblogbuild",
     docsDir: "docs",
     lastUpdated: true,
     // navbarTitle: "breadcrumb",
