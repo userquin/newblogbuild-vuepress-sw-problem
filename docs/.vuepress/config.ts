@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { gungnirTheme, i18n } from "vuepress-theme-gungnir";
 import { navbar } from "./configs";
 import { viteBundler } from "@vuepress/bundler-vite";
+import { webpackBundler } from "@vuepress/bundler-webpack";
 
 const isProd = process.env.NODE_ENV === "production";
 
@@ -58,7 +59,8 @@ export default defineUserConfig({
 
 
   // specify bundler via environment variable
-
+  bundler:
+    process.env.DOCS_BUNDLER === "webpack" ? webpackBundler() : viteBundler(),
   // configure default theme
   theme: gungnirTheme({
     repo: "DWSpace",

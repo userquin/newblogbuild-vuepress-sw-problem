@@ -5,10 +5,8 @@ import clientConfig3 from 'E:/newblogbuild/node_modules/@vuepress/plugin-theme-d
 import clientConfig4 from 'E:/newblogbuild/node_modules/@renovamen/vuepress-plugin-search/lib/client/config.js'
 import clientConfig5 from 'E:/newblogbuild/node_modules/vuepress-plugin-chart/lib/client/config.js'
 import clientConfig6 from 'E:/newblogbuild/node_modules/vuepress-plugin-code-enhance/lib/client/config.js'
-import clientConfig7 from 'E:/newblogbuild/node_modules/@vuepress/plugin-pwa/lib/client/config.js'
-import clientConfig8 from 'E:/newblogbuild/node_modules/@vuepress/plugin-pwa-popup/lib/client/config.js'
-import clientConfig9 from 'E:/newblogbuild/node_modules/vuepress-theme-gungnir/lib/client/config.js'
-import clientConfig10 from 'E:/newblogbuild/docs/.vuepress/client.ts'
+import clientConfig7 from 'E:/newblogbuild/node_modules/vuepress-theme-gungnir/lib/client/config.js'
+import clientConfig8 from 'E:/newblogbuild/docs/.vuepress/client.ts'
 
 export const clientConfigs = [
   clientConfig0,
@@ -20,6 +18,4 @@ export const clientConfigs = [
   clientConfig6,
   clientConfig7,
   clientConfig8,
-  clientConfig9,
-  clientConfig10,
 ]
