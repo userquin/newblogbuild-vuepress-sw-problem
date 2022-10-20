@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as n}from"./app.972ff1cb.js";const a={},o=n("p",null,"Luy\u1EC7n t\u1EADp",-1),_=[o];function s(r,h){return t(),c("div",null,_)}var d=e(a,[["render",s],["__file","Cach-thanh-cong.html.vue"]]);export{d as default};
