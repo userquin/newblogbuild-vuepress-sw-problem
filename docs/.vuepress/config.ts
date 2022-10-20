@@ -176,7 +176,7 @@ export default defineUserConfig({
         description: "A blog maked by Quan Dat",
         copyright: "DWSpace 2022"
       },
-      pwa: true,
+      pwa: false,
       search: true // use @vuepress/plugin-docsearch instead
     },
 
